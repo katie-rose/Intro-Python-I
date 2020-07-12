@@ -24,7 +24,6 @@ def outer():
         y = 999
 
     inner()
-    outer()
 
     # This prints 120. What do we have to change in inner() to get it to print
     # 999?
